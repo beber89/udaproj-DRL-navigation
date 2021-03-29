@@ -37,16 +37,28 @@
 
 ### Training
 
-- Click `Cell` in the menu bar then click `Run Cells`.
+- Open `Navigation.ipynb`
+
+- Navigate the notebook until you reach the `3. Watch the agent play` section and click on that cell
+
+- Click `Cell` in the menu bar then click `Run All Above`
+
+- Wait until the agent finishes training
 
 ### Run Trained Agent
 
-- Run all the cells before `My Workspace` section
+- Open `Navigation.ipynb`
 
-- Run all the cells starting beneath the `Watch the agent play` section
+- Navigate the notebook until you reach the `1. Training` section and click on that cell
+
+- Click `Cell` in the menu bar then click `Run All Above`
+
+- Navigate the notebook until you reach the `3. Watch the agent play` section and click on that cell
+
+- Click `Cell` in the menu bar then click `Run All Below`
 
 - This loads the weights into the model from file `checkpoint.pth`
 
-- Watch the agent play in a new unity window
+- A unity window pops up showing the agent playing the game
 
 ![gameplay](game-record.gif)
