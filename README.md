@@ -12,6 +12,16 @@
   - *Right*
 - **goal**: The environment is considered solved if agent gets an average score of +13 over 100 consecutive episodes
 
+### Reinforcement Learning Algorithm
+
+- The Algorithm is Deep Q-Learning  (DQN)
+
+- It relies on a Value Function to estimate the next action (maximum value / best action policy)
+
+- Value Function is being approximated via the Neural Network Model
+
+- The Neural Network model is softly updated to a target model in order to keep the learning stable
+
 ## Getting Started
 
 ---
